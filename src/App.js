@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/header';
+import TakeNoteOne from './components/TakeNoteOne/TakeNoteOne';
+import TakeNoteTwo from './components/TakeNoteTwo/TakeNoteTwo';
+import TakeNoteThree from './components/TakeNoteThree/TakeNoteThree';
+import SignIn from './pages/SignIn/SignIn';
+import SignUp from './pages/SignUp/SignUp';
+import DashBoard from './pages/Dashboard/dashboard';
+import Router from './components/router/router';
+// import { Provider } from 'react';
+import { store } from './components/redux/store';
+import  { Provider } from 'react-redux'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     
+      <Provider store={store}>
+      <Router/>
+      </Provider>
+
+
     </div>
   );
 }

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+.header{
+
+    width: 100vw;
+    height: 9vh;
+    border: 1px solid rgb(215, 202, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span {
+    color: rgb(70, 63, 63);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+.headerAlign {
+    padding: 12px;
+}
+
+.headerAlign1{
+    padding: 2px;
+}
+#Name{
+    padding-bottom: 10px;
+}
+
+#logo img{
+    width: 41px !important;
+    height: 40px !important;
+}
+
+.head_logo{
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.head_setting{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25%;
+
+}
+
+
+.head_menu{
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.head_searchBar{  
+    margin-left: 5vw;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green;  */
+    border: 0px solid ;
+    border-radius: 5px;
+    padding-top: 2px;
+    background-color: rgb(239, 239, 239);
+
+}
+
+
+
+.inputText{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.inputText input{
+    width: 100%;
+    border: 0px solid ;
+    background-color: rgb(239, 239, 239);
+
+}
+
+
+.inputText input:focus {
+    outline:none;
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .head_searchBar{
+        background-color: white;
+        margin-left: 10px;
+        width: 5%;
+
+
+    }
+
+    .inputText{
+        display: none;
+
+    }
+
+
+
+}
+
+

@@ -1,0 +1,106 @@
+.assign1{
+    
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 600px;
+    height: 18vh;
+    border: 1px solid rgb(196, 193, 193);
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #b0b6b6
+}
+
+.leftside1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}   
+.middleside1{    
+
+    padding-left: 10px;
+
+}
+
+.rightside1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+
+.eight_Logo_Left{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 20%;
+}   
+
+
+.eight_Logo_Right{
+   
+    margin-right: 5%;
+    margin-bottom: 10px;
+}   
+
+/* .eight_Logo_Right input{
+    border: 0px solid;
+    background-color: transparent; 
+} */
+
+/* 
+.eight_Logo_Right input:focus {
+    outline:none;
+} */
+
+.takNote2Class{
+
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+.inputText21 input{
+    border: 0px solid ;
+
+}
+
+.inputText21 input:focus {
+    outline:none;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    .assign1{
+        width: 80%;
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .eight_Logo_Left{
+        margin-right: 0;
+
+    }
+}
+
+
+
+
+
+
+

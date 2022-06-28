@@ -1,0 +1,192 @@
+
+.centralSignIn{
+
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    width: 440px;
+    height: 70vh;
+    border-radius: 8px;
+}
+
+.insideCentralDiv{
+
+    /* border: 1px solid red; */
+    padding: 48px 40px 48px 40px ;
+    width: 360px;
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}   
+
+.divNo1 span {
+    width: 75px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.divNo2{
+
+    padding-top: 16px;
+    /* width: 23vw; */
+    height: 4vh;   
+    display: flex;
+    justify-content: center;
+
+}       
+
+
+.divNo2 span {
+
+    font-size: 25px;
+}
+
+.divNo3{
+
+    padding-top: 8px;
+    /* width: 23vw; */
+    height: 3.5vh;   
+
+}   
+
+.divNo3 span { 
+    display: flex;
+    justify-content: center;
+}   
+
+.divNo4{    
+    /* border: 1px solid red; */
+    width: 400px;
+    /* width: 25vw; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+
+.divNo4 div{
+    padding-bottom: 5px;
+}
+
+.TextFieldCust{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.divNo5 {
+
+    padding: 15px 0 3px 0;
+}
+.divNo5 a{
+    text-decoration: none;
+}
+
+.divNo5 span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1A73E8;
+}
+
+
+.divNo6{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    height: 3vh;
+
+}   
+
+.CreateAccount a{
+    text-decoration: none;
+
+}
+
+.CreateAccount span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1A73E8;
+
+}
+
+
+.bottomSide{
+    display: flex;
+    flex-direction: column ;
+    /* padding: 24px 40px 0 40px; */
+}
+
+.divNo4{
+
+    padding: 9px 0 3px 0;
+}
+
+@media screen and (max-width :600px) {
+
+    .centralSignIn{
+        border: none;
+        margin: none;
+        margin-top: 0;
+        height: 70vh;
+    }   
+
+    .insideCentralDiv{
+
+        /* border: 1px solid red; */
+        /* width: 100vw; */
+        margin: auto;
+        padding: 0;
+    }
+
+
+    
+}
+
+
+
+
+@media screen and (max-width: 440px) {
+
+    .insideCentralDiv{
+
+        /* border: 1px solid red; */
+        /* width: 100vw; */
+        padding: 5vw;
+
+    }
+
+    .divNo3 span { 
+        
+        background-color: pink;
+    }
+
+    .divNo4{    
+        /* width: 400px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .TextFieldCust{
+        /* border: 1px solid red; */
+        width: 100%;
+        padding-right: 40px;
+    }    
+} 
+
+
+/* @media screen and (min-width :769px) and (max-width: 1024px){
+
+    .centralSignIn{
+        border: 1px solid purple;
+
+    }
+} */
+
+
+

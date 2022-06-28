@@ -1,0 +1,285 @@
+
+.centralSignIn1{
+
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    width: 751px;
+    /* width: 49.5vw; */
+    
+    height: 80vh;
+    border-radius: 8px;
+    
+}
+
+.InsideCentralSignIn{
+
+    /* border: 1px solid red; */
+    margin: 48px 40px 48px 40px;
+    width: 751px;
+    height: 67vh;
+    border-radius: 8px;
+    display: flex;
+
+}   
+
+.leftSide{
+
+    /* border: 1px solid red; */
+    width: 25vw;
+    height: 67vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+
+.rightSide{
+
+    /* border: 1px solid red; */
+    width: 380px;
+    height: 67vh;
+    border-radius: 8px;
+    padding-left: 48px;
+
+}   
+
+.rightImg{  
+
+    margin-top: auto;
+
+}
+
+
+.SignUpDiv1{    
+    /* border: 1px solid red; */
+    /* width: 25vw; */
+    height: 24px;
+}
+
+.SignUpDiv1 span{   
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.SignUpDiv2 span{ 
+
+    font-size: 22px;
+    font-weight: 400;
+
+
+}
+
+
+.SignUpDiv2 {
+    /* border: 1px solid red; */
+    /* width: 25vw; */
+    height: 30.4px;
+    padding-top: 16px;
+
+}
+
+.formDiv{
+    /* border: 1px solid red;  */
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+}   
+
+.SignUpDiv3{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 44px;
+}
+
+.SignUpDiv4{
+
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 56px;
+    padding-top: 24px;    
+    
+}
+
+
+.SignUpDiv5{
+
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 36px;
+    padding-top: 24px;    
+    
+}
+
+.SignUpDiv6{
+
+    width: 25vw;
+    height: 24pxx;
+    padding-top: 8px;    
+    
+}
+
+
+
+
+#makeItRow1, #makeItRow2, #makeItRow3{
+
+    display: flex;  
+    justify-content: space-between;
+
+}
+
+.SignUpDiv7{    
+
+    /* border: 1px solid red; */
+     width: 100%;
+    height: 7vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SignUpDiv7 a{
+    text-decoration: none;
+
+}
+
+
+.SignUpDiv7 span{
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #1A73E8;
+    
+}
+
+.FnClass{
+    width: 50%;
+    padding-right: 2px;
+}
+
+.LnClass{
+    padding-left: 2px;
+    width: 50%;
+}
+
+.password{
+    width: 50%;
+    padding-right: 2px;
+}
+
+.confirmPassword{
+    padding-left: 2px;
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .formDiv{
+        width: 70vw;
+    }
+
+    .SignUpDiv3{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 160px;
+    }
+
+    
+        #makeItRow1, #makeItRow2{
+
+            display: flex;  
+            flex-direction: column;
+            height: 90px;
+
+        }
+    .FnClass, .LnClass, .password, .confirmPassword {
+        width: 100%;
+        padding: 0;
+    }
+
+    .SignUpDiv2 span{ 
+
+        font-size: 16px;
+        font-weight: 300;
+    
+    
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .centralSignIn1{
+        margin: none;
+        margin-top: 0;
+        border: none;
+    }   
+
+
+    
+}
+
+@media screen and (max-width: 900px){
+
+    .rightImg{
+        display: none;
+    }
+
+    .centralSignIn1{
+        width: 430px;
+
+    }
+
+
+    .leftSide{
+        width: 380px;
+
+    }
+
+    
+    .SignUpDiv3{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 44px;
+    }
+
+    .SignUpDiv4{
+
+        /* border: 1px solid red; */
+        width: 100%;
+        
+        
+    }
+
+    .SignUpDiv5{
+        width: 100%;
+
+    }
+
+    .SignUpDiv7{
+        width: 100%;
+
+    }
+
+    
+.SignUpDiv2 span{ 
+
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+}
+
+
+/* 
+320-480
+481-781
+769-1024 */

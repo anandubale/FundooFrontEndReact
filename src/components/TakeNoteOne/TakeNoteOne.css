@@ -1,0 +1,89 @@
+.assign{
+    
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 6vh;
+    border: 1px solid rgb(196, 193, 193);;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #b0b6b6
+}
+
+.leftside{
+    padding-left: 12px;
+}
+
+.rightside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    padding-top: 5px;
+
+}
+
+
+.inputText1 input{
+    border: 0px solid ;
+    width: 100%;
+
+}
+
+.inputText1 input:focus {
+    outline:none;
+}
+
+
+@media screen and (max-width: 700px){
+
+    .assign{
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .takNote1Class img{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .assign{
+    
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+    height: 6vh;
+    border: 1px solid rgb(196, 193, 193);;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #b0b6b6
+}
+
+.leftside{
+    padding-left: 12px;
+}
+
+.rightside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    padding-top: 5px;
+
+} */
